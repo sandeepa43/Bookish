@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+#Bookish App
+<img width="1374" alt="Screenshot 2024-07-03 at 5 07 23 PM" src="https://github.com/sandeepa43/Bookish/assets/29501865/fdfc4064-f64a-4500-a8c9-9c3a5c05dd83">
+<img width="988" alt="Screenshot 2024-07-03 at 5 07 31 PM" src="https://github.com/sandeepa43/Bookish/assets/29501865/67cb36a1-08e0-4405-bd55-d46dd2edc608">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
