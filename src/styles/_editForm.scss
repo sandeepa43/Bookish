@@ -1,0 +1,41 @@
+.edit-book-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin: 5px;
+  }
+  textarea {
+    width: 90%;
+    flex-direction: row;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    display: flex;
+  }
+  .button-container {
+    display: flex;
+  }
+  button {
+    background-color: #00246b;
+    border: none;
+    width: 50%;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .question-button {
+    background-color: #00246b;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,32 @@
+.pagination {
+  margin: 1rem;
+  button {
+    color: white;
+    background-color: #00246b;
+    border: none;
+    border-radius: 2px;
+    height: 30px;
+    width: 30px;
+    margin: 2px;
+    cursor: pointer;
+    animation-duration: 1s;
+    animation-iteration-count: once;
+    transform-origin: bottom;
+  }
+  button:hover {
+    opacity: 0.9;
+    animation-name: bounce;
+    animation-timing-function: ease;
+    @keyframes bounce {
+      0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-4px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
+  }
+}

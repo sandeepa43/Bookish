@@ -1,0 +1,35 @@
+.formContainer {
+  display: flex;
+  justify-content: end;
+  width: 94%;
+  input {
+    width: 300px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin: 5px;
+  }
+  textarea {
+    width: 615px;
+    flex-direction: row;
+    height: 40px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    display: flex;
+  }
+  button {
+    background-color: #00246b;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .question-button {
+    background-color: #00246b;
+    border: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+}
